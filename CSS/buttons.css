@@ -1,60 +1,85 @@
 .btn {
   border: none;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 1px;
-  outline: 0 !important;
+  outline: 0;
   padding: 1em 2.2em;
   text-transform: uppercase;
-}
-
-.btn:focus {
-  opacity: 0.8;
-}
-
-.btn:active {
-  transform: scale(0.9);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
 }
 
 /* Button 1 */
 .btn-1 {
   background-color: var(--btn-color-1);
   color: #000;
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-1:hover {
   background-color: transparent;
   box-shadow: 0 0 0 2px var(--btn-color-1);
-  transition: all 0.3s ease-out 50ms;
+  transition: all 0.1s ease-out 50ms;
+  -webkit-transition: all 0.1s ease-out 50ms;
+  -moz-transition: all 0.1s ease-out 50ms;
+  -ms-transition: all 0.1s ease-out 50ms;
+  -o-transition: all 0.1s ease-out 50ms;
+}
+
+.btn-1:active {
+  transform: scale(0.8);
 }
 
 .btn-2 {
   background-color: var(--btn-color-1);
   border-radius: var(--border-radius);
   color: #000;
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-2:hover {
   background-color: transparent;
   box-shadow: 0 0 0 2px var(--btn-color-1);
-  transition: all 0.3s ease-out 50ms;
+  transition: all 0.1s ease-out 50ms;
+  -webkit-transition: all 0.1s ease-out 50ms;
+  -moz-transition: all 0.1s ease-out 50ms;
+  -ms-transition: all 0.1s ease-out 50ms;
+  -o-transition: all 0.1s ease-out 50ms;
+}
+
+.btn-2:active {
+  transform: scale(0.8);
 }
 
 /* Button 2 */
 .btn-3 {
   background-color: var(--btn-color-1);
   color: #000;
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-3:hover {
   animation: pulse 1.5s ease;
-  transition: all 0.3s ease-out 50ms;
+  transition: all 0.1s ease-out 50ms;
+  -webkit-transition: all 0.1s ease-out 50ms;
+  -moz-transition: all 0.1s ease-out 50ms;
+  -ms-transition: all 0.1s ease-out 50ms;
+  -o-transition: all 0.1s ease-out 50ms;
+}
+
+.btn-3:active {
+  transform: scale(0.8);
 }
 
 @keyframes pulse {
@@ -75,12 +100,24 @@
   background-color: var(--btn-color-1);
   border-radius: var(--border-radius);
   color: #000;
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-4:hover {
   animation: pulse2 1.5s ease;
-  transition: all 0.3s ease-out 50ms;
+  transition: all 0.1s ease-out 50ms;
+  -webkit-transition: all 0.1s ease-out 50ms;
+  -moz-transition: all 0.1s ease-out 50ms;
+  -ms-transition: all 0.1s ease-out 50ms;
+  -o-transition: all 0.1s ease-out 50ms;
+}
+
+.btn-4:active {
+  transform: scale(0.8);
 }
 
 @keyframes pulse2 {
@@ -125,6 +162,12 @@
   transition: transform 0.5s ease-out 50ms;
 }
 
+.btn-5:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 .btn-6 {
   background-color: var(--btn-color-1);
   border-radius: var(--border-radius);
@@ -150,6 +193,12 @@
 .btn-6:hover::before {
   transform: rotate(0deg);
   transition: all 0.5s ease-out 50ms;
+}
+
+.btn-6:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 4 */
@@ -179,6 +228,12 @@
   transition: all 0.5s ease-out 50ms;
 }
 
+.btn-7:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 .btn-8 {
   background-color: var(--btn-color-1);
   border-radius: var(--border-radius);
@@ -204,6 +259,12 @@
 .btn-8:hover::before {
   transform: translateX(0);
   transition: all 0.5s ease-out 50ms;
+}
+
+.btn-8:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 5 */
@@ -234,6 +295,12 @@
   transition: all 0.5s ease-in 50ms;
 }
 
+.btn-9:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 .btn-10 {
   background-color: var(--btn-color-2);
   border-radius: var(--border-radius);
@@ -260,6 +327,12 @@
   right: auto;
   width: 100%;
   transition: all 0.5s ease-in 50ms;
+}
+
+.btn-10:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 6 */
@@ -289,6 +362,12 @@
   transition: all 0.5s ease-out 50ms;
 }
 
+.btn-11:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 .btn-12 {
   background-color: var(--btn-color-2);
   border-radius: var(--border-radius);
@@ -314,6 +393,12 @@
 .btn-12:hover::before {
   transform: translateY(0);
   transition: all 0.5s ease-out 50ms;
+}
+
+.btn-12:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 7 */
@@ -344,6 +429,12 @@
   transition: all 0.5s ease-out 50ms;
 }
 
+.btn-13:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 .btn-14 {
   background-color: var(--btn-color-2);
   border-radius: var(--border-radius);
@@ -370,6 +461,12 @@
   bottom: auto;
   height: 100%;
   transition: all 0.5s ease-out 50ms;
+}
+
+.btn-14:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 8 */
@@ -401,6 +498,12 @@
   transition: all 0.5s ease-out 50ms;
 }
 
+.btn-15:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 .btn-16 {
   background-color: var(--btn-color-2);
   border-radius: var(--border-radius);
@@ -430,28 +533,78 @@
   transition: all 0.5s ease-out 50ms;
 }
 
+.btn-16:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 /* Button 9 */
 .btn-17 {
   background-color: var(--btn-color-3);
   color: #000;
+  transition: all 0.2s ease-out 50ms;
+}
+
+.btn-17:hover {
+  opacity: 0.8;
+}
+
+.btn-17:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn-18 {
   background-color: var(--btn-color-3);
   border-radius: var(--border-radius);
   color: #000;
+  transition: all 0.2s ease-out 50ms;
+}
+
+.btn-18:hover {
+  opacity: 0.8;
+}
+
+.btn-18:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 10 */
 .btn-19 {
   background-color: var(--btn-color-3);
   color: #000;
+  transition: all 0.2s ease-out 50ms;
+}
+
+.btn-19:hover {
+  opacity: 0.8;
+}
+
+.btn-19:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn-20 {
   background-color: var(--btn-color-3);
   border-radius: var(--border-radius);
   color: #000;
+  transition: all 0.2s ease-out 50ms;
+}
+
+.btn-20:hover {
+  opacity: 0.8;
+}
+
+.btn-20:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 11 */
@@ -460,7 +613,7 @@
   color: #000;
   overflow: hidden;
   position: relative;
-  transition: all 0.6s ease-in 50ms;
+  transition: all 0.2s ease-out 50ms;
   z-index: 1;
 }
 
@@ -475,13 +628,23 @@
   z-index: -1;
 }
 
+.btn-21:hover {
+  opacity: 0.8;
+}
+
+.btn-21:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
 .btn-22 {
   background-color: var(--btn-color-3);
   border-radius: var(--border-radius);
   color: #000;
   overflow: hidden;
   position: relative;
-  transition: all 0.6s ease-in 50ms;
+  transition: all 0.2s ease-out 50ms;
   z-index: 1;
 }
 
@@ -494,6 +657,16 @@
   height: 100%;
   width: 50%;
   z-index: -1;
+}
+
+.btn-22:hover {
+  opacity: 0.8;
+}
+
+.btn-22:focus {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Button 12 */
@@ -591,7 +764,11 @@
   color: #000;
   overflow: hidden;
   position: relative;
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.4s ease-in 50ms;
+  -webkit-transition: all 0.4s ease-in 50ms;
+  -moz-transition: all 0.4s ease-in 50ms;
+  -ms-transition: all 0.4s ease-in 50ms;
+  -o-transition: all 0.4s ease-in 50ms;
   z-index: 1;
 }
 
@@ -604,7 +781,11 @@
   width: 40px;
   top: 19px;
   transform: translateY(-50%);
-  transition: all 0.8s ease-out 50ms;
+  transition: all 0.3s ease-out 50ms;
+  -webkit-transition: all 0.3s ease-out 50ms;
+  -moz-transition: all 0.3s ease-out 50ms;
+  -ms-transition: all 0.3s ease-out 50ms;
+  -o-transition: all 0.3s ease-out 50ms;
   z-index: -1;
 }
 
@@ -624,7 +805,11 @@
   color: #000;
   overflow: hidden;
   position: relative;
-  transition: all 0.6s ease-in 50ms;
+  transition: all 0.4s ease-in 50ms;
+  -webkit-transition: all 0.4s ease-in 50ms;
+  -moz-transition: all 0.4s ease-in 50ms;
+  -ms-transition: all 0.4s ease-in 50ms;
+  -o-transition: all 0.4s ease-in 50ms;
   z-index: 1;
 }
 
@@ -637,7 +822,11 @@
   width: 40px;
   top: 19px;
   transform: translateY(-50%);
-  transition: all 0.8s ease-out 50ms;
+  transition: all 0.3s ease-out 50ms;
+  -webkit-transition: all 0.3s ease-out 50ms;
+  -moz-transition: all 0.3s ease-out 50ms;
+  -ms-transition: all 0.3s ease-out 50ms;
+  -o-transition: all 0.3s ease-out 50ms;
   z-index: -1;
 }
 
@@ -666,7 +855,11 @@
   width: 25px;
   border-left: 2px solid var(--btn-color-4);
   border-top: 2px solid var(--btn-color-4);
-  transition: all 0.6s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-27::after {
@@ -678,21 +871,28 @@
   width: 25px;
   border-bottom: 2px solid var(--btn-color-4);
   border-right: 2px solid var(--btn-color-4);
-  transition: all 0.6s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-27:hover::before,
 .btn-27:hover::after {
   height: 100%;
   width: 100%;
-  transition: all 0.5s ease-out 50ms;
+  transition: all 0.3s ease-out 50ms;
+  -webkit-transition: all 0.3s ease-out 50ms;
+  -moz-transition: all 0.3s ease-out 50ms;
+  -ms-transition: all 0.3s ease-out 50ms;
+  -o-transition: all 0.3s ease-out 50ms;
 }
 
 .btn-28 {
   background-color: var(--btn-color-4);
   color: #000;
   position: relative;
-  transition: all 0.6s ease-in 50ms;
 }
 
 .btn-28::before {
@@ -704,7 +904,11 @@
   width: 100%;
   border-left: 2px solid var(--btn-color-4);
   border-top: 2px solid var(--btn-color-4);
-  transition: all 0.6s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-28::after {
@@ -716,14 +920,22 @@
   width: 100%;
   border-bottom: 2px solid var(--btn-color-4);
   border-right: 2px solid var(--btn-color-4);
-  transition: all 0.6s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-28:hover::before,
 .btn-28:hover::after {
   height: 25px;
   width: 25px;
-  transition: all 0.5s ease-out 50ms;
+  transition: all 0.3s ease-out 50ms;
+  -webkit-transition: all 0.3s ease-out 50ms;
+  -moz-transition: all 0.3s ease-out 50ms;
+  -ms-transition: all 0.3s ease-out 50ms;
+  -o-transition: all 0.3s ease-out 50ms;
 }
 
 /* Button 15 */
@@ -802,22 +1014,46 @@
 .btn-31 {
   box-shadow: 0 0 0 2px var(--btn-color-4);
   color: #000;
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-31:hover {
   background-color: var(--btn-color-4);
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.3s ease-out 50ms;
+  -webkit-transition: all 0.3s ease-out 50ms;
+  -moz-transition: all 0.3s ease-out 50ms;
+  -ms-transition: all 0.3s ease-out 50ms;
+  -o-transition: all 0.3s ease-out 50ms;
+}
+
+.btn-31:active {
+  transform: scale(0.6);
 }
 
 .btn-32 {
   box-shadow: 0 0 0 2px var(--btn-color-4);
   border-radius: var(--border-radius);
   color: #000;
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.2s ease-in 50ms;
+  -webkit-transition: all 0.2s ease-in 50ms;
+  -moz-transition: all 0.2s ease-in 50ms;
+  -ms-transition: all 0.2s ease-in 50ms;
+  -o-transition: all 0.2s ease-in 50ms;
 }
 
 .btn-32:hover {
   background-color: var(--btn-color-4);
-  transition: all 0.3s ease-in 50ms;
+  transition: all 0.3s ease-out 50ms;
+  -webkit-transition: all 0.3s ease-out 50ms;
+  -moz-transition: all 0.3s ease-out 50ms;
+  -ms-transition: all 0.3s ease-out 50ms;
+  -o-transition: all 0.3s ease-out 50ms;
+}
+
+.btn-32:active {
+  transform: scale(0.6);
 }
